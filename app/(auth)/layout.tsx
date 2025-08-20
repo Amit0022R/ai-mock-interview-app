@@ -1,11 +1,12 @@
 // common layout for authentication pages
 
-import React from 'react'
-
-const layout = () => {
+import React, { ReactNode } from 'react'
+// update layout to destructure children from props
+const Authlayout = ({children } : {children : ReactNode
+  } ) => {
   return (
-    <div>layout</div>
+    <div>{children}</div>
   )
 }
 
-export default layout
+export default Authlayout
