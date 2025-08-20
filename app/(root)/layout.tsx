@@ -1,6 +1,6 @@
 import React, { ReactNode } from 'react'
 
-const Rootlayout = ({children}: {childeren : ReactNode 
+const Rootlayout = ({children}: {children : ReactNode 
     } ) => {
   return (
     <div>{children}</div>
